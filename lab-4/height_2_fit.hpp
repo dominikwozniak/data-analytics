@@ -59,25 +59,25 @@ using stan::math::pow;
 stan::math::profile_map profiles__;
 static int current_statement__= 0;
 static const std::vector<string> locations_array__ = {" (found before start of program)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 7, column 4 to column 15)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 8, column 4 to column 14)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 9, column 4 to column 24)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 13, column 4 to column 37)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 24, column 4 to column 19)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 26, column 4 to column 41)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 25, column 19 to line 27, column 1)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 25, column 4 to line 27, column 1)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 17, column 4 to column 27)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 18, column 4 to column 26)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 19, column 4 to column 31)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 20, column 4 to column 32)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 8, column 4 to column 15)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 9, column 4 to column 14)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 10, column 4 to column 24)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 14, column 4 to column 41)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 25, column 4 to column 19)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 27, column 8 to column 45)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 26, column 18 to line 28, column 5)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 26, column 4 to line 28, column 5)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 18, column 4 to column 28)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 19, column 4 to column 26)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 20, column 4 to column 31)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 21, column 4 to column 31)",
                                                       " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 2, column 4 to column 10)",
                                                       " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 3, column 11 to column 12)",
                                                       " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 3, column 4 to column 21)",
                                                       " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 4, column 17 to column 18)",
                                                       " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 4, column 4 to column 20)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 13, column 11 to column 12)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 24, column 16 to column 17)"};
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 14, column 11 to column 12)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/height_2_fit.stan', line 25, column 16 to column 17)"};
 
 
 
