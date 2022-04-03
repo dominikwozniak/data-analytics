@@ -59,30 +59,30 @@ using stan::math::pow;
 stan::math::profile_map profiles__;
 static int current_statement__= 0;
 static const std::vector<string> locations_array__ = {" (found before start of program)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 10, column 4 to column 19)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 11, column 4 to column 20)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 13, column 4 to column 19)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 21, column 12 to column 42)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 19, column 16 to column 45)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 17, column 16 to column 44)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 16, column 12 to line 19, column 45)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 15, column 8 to line 21, column 42)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 14, column 19 to line 22, column 5)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 14, column 4 to line 22, column 5)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 26, column 12 to column 39)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 25, column 8 to line 26, column 39)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 28, column 8 to column 59)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 24, column 19 to line 29, column 5)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 24, column 4 to line 29, column 5)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 2, column 4 to column 25)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 3, column 4 to column 25)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 4, column 4 to column 19)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 5, column 4 to column 19)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 6, column 4 to column 43)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 10, column 11 to column 12)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 10, column 14 to column 15)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 11, column 1 to column 15)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 12, column 1 to column 17)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 14, column 1 to column 16)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 22, column 3 to column 33)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 20, column 4 to column 33)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 18, column 4 to column 31)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 17, column 3 to line 20, column 33)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 16, column 2 to line 22, column 33)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 15, column 16 to line 23, column 2)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 15, column 1 to line 23, column 2)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 27, column 3 to column 29)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 26, column 2 to line 27, column 29)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 30, column 2 to column 53)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 25, column 15 to line 31, column 2)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 25, column 1 to line 31, column 2)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 2, column 1 to column 22)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 3, column 1 to column 22)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 4, column 1 to column 16)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 5, column 1 to column 16)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 6, column 1 to column 40)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 11, column 8 to column 9)",
                                                       " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 11, column 10 to column 11)",
-                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 13, column 11 to column 12)"};
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 12, column 7 to column 8)",
+                                                      " (in '/Users/dominikwozniak/study/data_analytics/lab-4/generate_data.stan', line 14, column 8 to column 9)"};
 
 
 
@@ -166,7 +166,7 @@ class generate_data_model final : public model_base_crtp<generate_data_model> {
       current_statement__ = 23;
       validate_non_negative_index("y", "N", N);
       current_statement__ = 24;
-      validate_non_negative_index("beta", "N", N);
+      validate_non_negative_index("beta", "M", M);
     } catch (const std::exception& e) {
       stan::lang::rethrow_located(e, locations_array__[current_statement__]);
       // Next line prevents compiler griping about no return
@@ -246,7 +246,7 @@ class generate_data_model final : public model_base_crtp<generate_data_model> {
       y = std::vector<double>(N, std::numeric_limits<double>::quiet_NaN());
       
       Eigen::Matrix<double, -1, 1> beta;
-      beta = Eigen::Matrix<double, -1, 1>(N);
+      beta = Eigen::Matrix<double, -1, 1>(M);
       stan::math::fill(beta, std::numeric_limits<double>::quiet_NaN());
       
       current_statement__ = 10;
@@ -294,7 +294,7 @@ class generate_data_model final : public model_base_crtp<generate_data_model> {
                 cons_list(index_uni(sym1__), nil_index_list())), "X"));}}
       for (int sym1__ = 1; sym1__ <= N; ++sym1__) {
         vars__.emplace_back(y[(sym1__ - 1)]);}
-      for (int sym1__ = 1; sym1__ <= N; ++sym1__) {
+      for (int sym1__ = 1; sym1__ <= M; ++sym1__) {
         vars__.emplace_back(beta[(sym1__ - 1)]);}
     } catch (const std::exception& e) {
       stan::lang::rethrow_located(e, locations_array__[current_statement__]);
@@ -338,7 +338,7 @@ class generate_data_model final : public model_base_crtp<generate_data_model> {
     
     dimss__.emplace_back(std::vector<size_t>{static_cast<size_t>(N)});
     
-    dimss__.emplace_back(std::vector<size_t>{static_cast<size_t>(N)});
+    dimss__.emplace_back(std::vector<size_t>{static_cast<size_t>(M)});
     
     } // get_dims() 
     
@@ -365,7 +365,7 @@ class generate_data_model final : public model_base_crtp<generate_data_model> {
         {
           param_names__.emplace_back(std::string() + "y" + '.' + std::to_string(sym1__));
         }}
-      for (int sym1__ = 1; sym1__ <= N; ++sym1__) {
+      for (int sym1__ = 1; sym1__ <= M; ++sym1__) {
         {
           param_names__.emplace_back(std::string() + "beta" + '.' + std::to_string(sym1__));
         }}
@@ -396,7 +396,7 @@ class generate_data_model final : public model_base_crtp<generate_data_model> {
         {
           param_names__.emplace_back(std::string() + "y" + '.' + std::to_string(sym1__));
         }}
-      for (int sym1__ = 1; sym1__ <= N; ++sym1__) {
+      for (int sym1__ = 1; sym1__ <= M; ++sym1__) {
         {
           param_names__.emplace_back(std::string() + "beta" + '.' + std::to_string(sym1__));
         }}
@@ -406,13 +406,13 @@ class generate_data_model final : public model_base_crtp<generate_data_model> {
     
   inline std::string get_constrained_sizedtypes() const {
     stringstream s__;
-    s__ << "[{\"name\":\"X\",\"type\":{\"name\":\"matrix\",\"rows\":" << M << ",\"cols\":" << N << "},\"block\":\"generated_quantities\"},{\"name\":\"y\",\"type\":{\"name\":\"array\",\"length\":" << N << ",\"element_type\":{\"name\":\"real\"}},\"block\":\"generated_quantities\"},{\"name\":\"beta\",\"type\":{\"name\":\"vector\",\"length\":" << N << "},\"block\":\"generated_quantities\"}]";
+    s__ << "[{\"name\":\"X\",\"type\":{\"name\":\"matrix\",\"rows\":" << M << ",\"cols\":" << N << "},\"block\":\"generated_quantities\"},{\"name\":\"y\",\"type\":{\"name\":\"array\",\"length\":" << N << ",\"element_type\":{\"name\":\"real\"}},\"block\":\"generated_quantities\"},{\"name\":\"beta\",\"type\":{\"name\":\"vector\",\"length\":" << M << "},\"block\":\"generated_quantities\"}]";
     return s__.str();
     } // get_constrained_sizedtypes() 
     
   inline std::string get_unconstrained_sizedtypes() const {
     stringstream s__;
-    s__ << "[{\"name\":\"X\",\"type\":{\"name\":\"matrix\",\"rows\":" << M << ",\"cols\":" << N << "},\"block\":\"generated_quantities\"},{\"name\":\"y\",\"type\":{\"name\":\"array\",\"length\":" << N << ",\"element_type\":{\"name\":\"real\"}},\"block\":\"generated_quantities\"},{\"name\":\"beta\",\"type\":{\"name\":\"vector\",\"length\":" << N << "},\"block\":\"generated_quantities\"}]";
+    s__ << "[{\"name\":\"X\",\"type\":{\"name\":\"matrix\",\"rows\":" << M << ",\"cols\":" << N << "},\"block\":\"generated_quantities\"},{\"name\":\"y\",\"type\":{\"name\":\"array\",\"length\":" << N << ",\"element_type\":{\"name\":\"real\"}},\"block\":\"generated_quantities\"},{\"name\":\"beta\",\"type\":{\"name\":\"vector\",\"length\":" << M << "},\"block\":\"generated_quantities\"}]";
     return s__.str();
     } // get_unconstrained_sizedtypes() 
     
