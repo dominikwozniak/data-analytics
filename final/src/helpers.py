@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import KFold
 from typing import Dict, List, Tuple
 from src.types import StanInputNumber, StanInputList, StanInputValue, StanInput, CoordDict, PreparedData
-from src.constants import DIMS, HARDCODED_NUMBERS
+from src.constants import DIMS, R_BALL, R_HOLE, OVERSHOT, TOLERANCE_DISTANCE
 
 def get_stan_input(
     measurements: pd.DataFrame,
@@ -23,10 +23,10 @@ def get_stan_input(
             "likelihood": int(likelihood),
             "ix_train": [i + 1 for i in train_ix],
             "ix_test": [i + 1 for i in test_ix],
-            "r": HARDCODED_NUMBERS["r"],
-            "R": HARDCODED_NUMBERS["R"],
-            "overshot": HARDCODED_NUMBERS["overshot"],
-            "distance_tolerance": HARDCODED_NUMBERS["distance_tolerance"],
+            "r": R_BALL,
+            "R": R_HOLE,
+            "overshot": OVERSHOT,
+            "distance_tolerance": TOLERANCE_DISTANCE,
         }
     )
 
