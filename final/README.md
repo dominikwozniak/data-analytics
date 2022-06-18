@@ -3,9 +3,8 @@
 Authors: Dominik Woźniak & Patryk Tomaszewski
 
 ## Project overview
-For our research question, we will be investigating how different characteristics of a car affect it’s fuel consumption - Miles per gallon (MPG)
 
-Observing the above graph, we can notice negative relationship between these variables. The goal will be to find that relationship.
+For our research question, we will be investigating how different characteristics of a car affect it’s fuel consumption - Miles per gallon (MPG)
 
 ## Project structure
 
